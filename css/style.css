@@ -233,6 +233,18 @@ figure figcaption {
   -o-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+.colorlib-experience,
+.colorlib-education,
+.colorlib-experience,
+.colorlib-work {
+  padding-left: 2em;
+}
+
+.colorlib-narrow-content {
+  padding-left: 2em !important;
+}
+
 .colorlib-footer .ul {
   color: rgba(0, 0, 0, 0.5);
   display: block;
@@ -670,6 +682,10 @@ body.offcanvas .colorlib-nav-toggle {
   margin-left: 30px;
   margin-bottom: 10px;
   clear: both;
+}
+.colorlib-icon {
+  width: 40px !important;
+  height: 5px !important;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner {
